@@ -114,14 +114,4 @@ The project validates:
 - Customer-level aggregation
 - Category and product-level totals
 
-## Important Note
 
-This is a **synthetic dataset** created specifically for portfolio and learning purposes. It does not represent real customer information or an actual company.
-
-## Resume Project Description
-
-> **Customer Purchase Behavior Analysis | SQL, Excel, Data Analysis**
-> - Analyzed customer transaction data to identify purchasing patterns, trends, and high-value customer groups.
-> - Performed data cleaning, organization, aggregation, and summary analysis on transaction datasets.
-> - Used SQL and Excel to validate, filter, summarize, and interpret customer transaction data.
-> - Prepared findings that could support customer segmentation and retention-focused decision making.

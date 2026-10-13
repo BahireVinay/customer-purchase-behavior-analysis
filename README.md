@@ -2,7 +2,7 @@
 
 An end-to-end analysis of **1.07 million real transaction lines** from a UK online retailer: cleaning the data, measuring customer behaviour with SQL and pandas, segmenting customers, flagging unusually large orders, and reading the monthly revenue trend.
 
-![Monthly revenue](images/monthly_revenue.png)
+![Monthly revenue](monthly_revenue.png)
 
 ## Headline findings
 | Finding | Number |

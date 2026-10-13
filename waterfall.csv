@@ -1,0 +1,6 @@
+step,rows_before,rows_after,removed,why
+drop exact duplicates,1067371,1033036,34335,identical in every column; first copy kept
+drop missing customer_id,1033036,797885,235151,cannot be attributed to a customer; set aside in nocus_df
+split off cancellations (Invoice starts with C),797885,779495,18390,"kept in returns_df, not deleted"
+drop Quantity<=0 or Price<=0,779495,779425,70,Price = 0 rows add no revenue and are not sales; the Quantity condition removed nothing after cancellations were split
+split off non-product StockCodes,779425,776577,2848,"kept in non_product_df, not deleted"
